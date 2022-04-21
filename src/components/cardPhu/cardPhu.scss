@@ -1,0 +1,36 @@
+.formcard {
+  cursor: pointer;
+  margin-top: 10px;
+  width: 430px;
+  height: 380px;
+  margin-left: 35px;
+  overflow: hidden;
+  background: rgba(255, 254, 254, 0.411);
+  img {
+    width: 100%;
+  }
+  .formcard-text {
+    width: 95%;
+    margin: 5px 3%;
+    height: 100px;
+    h2 {
+      color: #292525;
+      display: inline;
+      font-size: 28.8px;
+      font-weight: 700; // in đậm
+      letter-spacing: 3px;
+      line-height: 36px;
+      text-align: left;
+      text-transform: uppercase; //viet hoa
+    }
+    i {
+      color: #292525;
+      line-height: 20px;
+      margin: 0px 0px 16px;
+      text-align: left;
+    }
+  }
+  &:hover{
+    border: 2px solid #000;
+  }
+}

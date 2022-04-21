@@ -1,0 +1,322 @@
+.containerReview {
+  width: 100%;
+  overflow: hidden;
+  .slide {
+    width: 100%;
+    height: 100vh;
+  }
+  .textslide {
+    width: 500px;
+    height: 400px;
+    margin-bottom: 200px;
+    margin-left: 650px;
+    text-align: left;
+    span {
+      font-size: 2rem;
+      color: #10221b;
+    }
+    h3 {
+      font-size: 45px;
+      color: #219150;
+      padding-top: 0.5rem;
+      text-transform: uppercase;
+    }
+
+    p {
+      line-height: 2;
+      color: #10221b;
+      font-size: 15px;
+      padding: 1rem 0;
+    }
+  }
+  .textslide2 {
+    width: 500px;
+    height: 400px;
+    margin-bottom: 200px;
+    text-align: left;
+    span {
+      font-size: 2rem;
+      color: #10221b;
+    }
+    h3 {
+      font-size: 45px;
+      color: #219150;
+      padding-top: 0.5rem;
+      text-transform: uppercase;
+    }
+
+    p {
+      line-height: 2;
+      color: #10221b;
+      font-size: 15px;
+      padding: 1rem 0;
+    }
+  }
+  .review-card {
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 100px;
+    .form-card {
+      width: 90%;
+      margin: 15px 7.5%;
+      display: flex;
+      .card-intro {
+        cursor: pointer;
+        margin: 0 35px;
+        width: 260px;
+        height: 370px;
+        overflow: hidden;
+        &:hover {
+          border: 0.5px solid #000;
+        }
+        &:hover .card-intro-img {
+          transition: 0.5s;
+          border-radius: 0;
+        }
+        .card-intro-img {
+          width: 200px;
+          height: 200px;
+          margin: 0 30px;
+          transition: 0.5s;
+          overflow: hidden;
+          border-radius: 50%;
+          img {
+            width: 100%;
+            transform: translateY(-40px);
+            background-position: center;
+            background-size: cover;
+          }
+        }
+        .conten-card {
+          margin-top: 5px;
+          width: 100%;
+          height: 100px;
+          h3 {
+            font-size: 2rem;
+            color: #219150;
+          }
+          p {
+            font-size: 13px;
+            color: #10221bb4;
+            padding: 0 0;
+            line-height: 2;
+          }
+        }
+        button {
+          padding: 5px 20px;
+          background-color: transparent;
+          border: 1px solid #000;
+          margin-top: 10px;
+          &:hover {
+            background-color: #000;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .body2-intro_review {
+    margin-top: 10px;
+    width: 100%;
+    height: 550px;
+    background: #eee;
+    display: flex;
+    .body2-intro_review_img {
+      width: 40%;
+      height: 400px;
+      margin-top: 50px;
+      margin-left: 7%;
+      box-shadow: 4rem 4rem 0 rgb(0 0 0 / 10%);
+      img {
+        width: 100%;
+      }
+    }
+    .body2-intro_review_content {
+      width: 40%;
+      height: 400px;
+      margin-top: 50px;
+      margin-left: 4%;
+      h3 {
+        font-size: 2.1rem;
+        color: #219150;
+        text-align: center;
+        margin-top: 50px;
+        font-weight: 500;
+      }
+      p {
+        margin-left: 25px;
+      }
+      .text-review {
+        margin-left: 25px;
+      }
+      button {
+        padding: 5px 20px;
+        margin-left: 25px;
+        background-color: transparent;
+        border: 1px solid #000;
+        margin-top: 10px;
+        &:hover {
+          background-color: #000;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .card-Demo-Travel {
+    width: 90%;
+    margin-top: 20px !important;
+    margin: 20px 5%;
+    h1 {
+      text-align: center;
+      font-weight: 500;
+    }
+    .card-intro-packages {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      .card-review-travel {
+        margin-top: 15px;
+        cursor: pointer;
+        border: 2px solid #000;
+        border-radius: 9px;
+        margin-left: 37px;
+        width: 30%;
+        padding: 15px 0;
+        &:hover {
+          background-color: rgba(165, 164, 164, 0.527);
+        }
+        .card-review-travel-img {
+          width: 90%;
+          border-radius: 8px;
+          overflow: hidden;
+          margin: 10px 5%;
+          img {
+            width: 100%;
+            height: 245px;
+            background-repeat: no-repeat;
+            background-position: center;background-size: cover;
+          }
+        }
+        h2 {
+          text-align: center;
+          color: #219150;
+          font-size: 25px;
+          text-transform: uppercase;
+        }
+        p {
+          text-align: center;
+          margin: 0px 30px;
+          font-size: 18px;
+        }
+        h4 {
+          margin: 15px 0;
+          text-align: center;
+          color: #d0021c;
+          font-size: 20px;
+          font-weight: bold;
+          line-height: 23px;
+        }
+        button {
+          padding: 5px 20px;
+          margin: 10px 31%;
+          background-color: transparent;
+          border: 1px solid #000;
+          text-transform: uppercase;
+          // margin-top: 10px;
+          &:hover {
+            background-color: #000;
+            color: #fff;
+          }
+        }
+      }
+    }
+ 
+  }
+  .pagination{
+    margin-left: 500px !important;
+  }
+
+  .newsletter {
+    padding: 20px 0;
+    margin-top: 20px;
+    width: 100%;
+    background: #eee;
+  }
+
+  .newsletter .content {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+  }
+
+  .newsletter .content p {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #10221b;
+  }
+  .heading {
+    text-transform: uppercase;
+  }
+
+  .newsletter .content .form-email {
+    margin-top: 2rem;
+    background: #fff;
+    border-radius: 5rem;
+    border: 0.2rem solid #10221b;
+    padding: 0.7rem;
+    display: flex;
+  }
+
+  .newsletter .content .form-email .email {
+    border: none;
+    width: 100%;
+    background: none;
+    text-transform: none;
+    font-size: 1.6rem;
+    color: #10221b;
+    padding: 0 1.3rem;
+  }
+
+  .newsletter .content .form-email .btn {
+    margin-top: 0;
+    border-radius: 5rem;
+    background: #10221b;
+    color: #fff;
+  }
+
+  .newsletter .content .form-email .btn:hover {
+    background: none;
+    color: #10221b;
+  }
+  
+}
+.modelthongbao{
+  display: flex;
+  width: 60% !important;
+  height: 570px !important;
+  overflow: hidden;
+  margin: 90px 20% !important;
+  .information-madel{
+    margin-top: -8.5px;
+    color: rgb(247, 55, 55);
+  }
+  .contentModel{
+    width: 100%;
+    display: flex;
+  }
+  .contentModel-text{
+    width: 45%;
+    margin-top: 150px;
+    margin-left: 50px;
+    p{
+      font-size: 18px;
+    }
+  }
+  .modelVideo{
+    margin-left: 100px;
+    width: 300px;
+    margin-top: 40px;
+  }
+}

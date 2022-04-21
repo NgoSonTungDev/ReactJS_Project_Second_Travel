@@ -1,0 +1,65 @@
+.header {
+  height: 50px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  background: rgba(51, 51, 51, 0.548);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 9%;
+}
+
+.header .logo {
+  font-weight: bolder;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.header .logo span {
+  color: red;
+}
+
+.header .navbar a {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-left: 1.2rem;
+}
+
+.header .navbar a:hover {
+  color: red;
+}
+
+#menu-bars {
+  font-size: 3rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+.user-menu {
+  font-size: 18px;
+  color: #fff;
+  margin-top: 2px;
+  margin-left: 12px;
+  text-transform: capitalize;
+}
+.intro-user {
+  display: flex;
+}
+.intro-user-img {
+  background: url('https://scontent.fdad3-2.fna.fbcdn.net/v/t1.30497-1/cp0/p40x40/143086968_2856368904622192_1959732218791162458_n.png?_nc_cat=1&ccb=1-5&_nc_sid=7206a8&_nc_ohc=n2xWL5_brgUAX_jL8m4&_nc_ht=scontent.fdad3-2.fna&oh=f8f9adcb38b83e8ef34fbec2595c66ee&oe=61CBD0A3');
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.intro-user-img img{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
